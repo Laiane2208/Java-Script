@@ -55,3 +55,11 @@ console.log(numeroNumber + numeroString) // Conversão implícita (concatenaçã
 //converção explicita
 
 console.log(numeroNumber + Number(numeroString))
+
+const numeroConvertido = Number(numeroString)
+
+console.log(numeroNumber + numeroConvertido)
+
+const numeroConvertidoErrado = Number("456b")
+
+console.log(numeroNumber + numeroConvertidoErrado)
